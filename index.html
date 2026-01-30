@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DN Cups – Price List</title>
+  <title>DN Cups – Tiramisu Menu</title>
   <style>
     body {
       margin: 0;
@@ -39,29 +39,51 @@
     .menu-item {
       background-color: #fff;
       border-radius: 16px;
-      padding: 25px;
+      padding: 20px;
       box-shadow: 0 6px 15px rgba(0,0,0,0.08);
       text-align: center;
     }
+    .menu-item img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
     .menu-item h3 {
-      margin-top: 0;
-      margin-bottom: 10px;
+      margin: 10px 0;
     }
     .menu-item p {
       font-size: 0.95rem;
       line-height: 1.5;
     }
     .price {
-      margin-top: 15px;
+      margin-top: 10px;
       font-size: 1.2rem;
       font-weight: bold;
       color: #5a3e36;
+    }
+    .order-btn {
+      display: inline-block;
+      margin: 40px auto 0;
+      padding: 15px 35px;
+      background-color: #25D366;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+    .order-btn:hover {
+      background-color: #1ebe5d;
     }
     footer {
       background-color: #eee;
       text-align: center;
       padding: 25px 15px;
       font-size: 0.9rem;
+      margin-top: 40px;
     }
   </style>
 </head>
@@ -76,30 +98,36 @@
     <div class="menu">
 
       <div class="menu-item">
+        <img src="images/classic.png" alt="Classic Tiramisu">
         <h3>Tiramisu – Classic Flavors</h3>
         <p>Original chocolate, coffee, strawberry, sugar-free</p>
         <div class="price">100</div>
       </div>
 
       <div class="menu-item">
+        <img src="images/special.png" alt="Special Tiramisu">
         <h3>Tiramisu – Special Flavors</h3>
         <p>Lotus, Oreo, Kinder, Pistachio</p>
         <div class="price">140</div>
       </div>
 
       <div class="menu-item">
+        <img src="images/large.png" alt="Large Tiramisu">
         <h3>Large Tiramisu Cup</h3>
         <p>Perfect for sharing or special occasions</p>
         <div class="price">300</div>
       </div>
 
       <div class="menu-item">
+        <img src="images/extras.png" alt="Extras">
         <h3>Extras</h3>
         <p>Caramel sauce, chocolate sauce, lotus spread, hazelnuts</p>
         <div class="price">200</div>
       </div>
 
     </div>
+
+    <a href="https://wa.me/96176026484" class="order-btn">Order on WhatsApp</a>
   </section>
 
   <footer>
